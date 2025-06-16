@@ -1,17 +1,11 @@
-import { Header } from './component/header/header'
-import { Routes, Route } from 'react-router'
 import './App.css'
-import { Landing } from './component/portfolio/landing'
+import { Home } from './pages/Home'
 
 function App() {
 
   return (
     <>
-    <div>
-      <Header />
-      <Landing></Landing>
-    </div>
-
+    <Home></Home>
     </>
   )
 }

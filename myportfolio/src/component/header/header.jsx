@@ -1,9 +1,8 @@
 import './header.css'
-import {BrowserRouter, Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 export function Header(){
     return (
         <>
-        <BrowserRouter>
         <div className='container-fluid'>
             
             <header className='d-flex justify-content-between align-items-center'
@@ -14,7 +13,7 @@ export function Header(){
             }}
         >
             <div>
-                <a href="#">Nitish Portfolio</a>
+                <Link to="/">Nitish Portfolio</Link>
             </div>
             <nav>
                 <ul className='d-flex'>
@@ -28,7 +27,6 @@ export function Header(){
         </header>
             
         </div>
-        </BrowserRouter>
         </>
     )
 }
