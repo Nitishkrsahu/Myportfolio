@@ -1,0 +1,11 @@
+a{
+  text-decoration: none;
+  font-family: "Oleo Script", cursive;
+}
+li{
+  list-style: none;
+  padding-left: 25px;
+}
+li a{
+  font-family: 'Courier New', Courier, monospace;
+}
