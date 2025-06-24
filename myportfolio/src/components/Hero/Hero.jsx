@@ -20,9 +20,10 @@ const Hero = () => {
           </div>
           <div className="col-lg-6">
             <img 
-              src="/developer-image.svg" 
+              src="./bio-pic.jpg" 
               alt="Developer" 
-              className="img-fluid rounded-circle shadow-lg" 
+              className="img-fluid rounded-circle shadow-lg"
+              width={550} 
             />
           </div>
         </div>

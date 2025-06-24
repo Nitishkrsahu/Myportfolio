@@ -9,7 +9,7 @@ const Projects = () => {
       title: 'E-commerce Platform',
       description: 'Full-featured online store with payment integration, admin dashboard, and product management.',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe API'],
-      image: '/ecommerce.jpg',
+      image: '/ecommerce.png',
       githubLink: '#',
       liveLink: '#'
     },
@@ -18,7 +18,7 @@ const Projects = () => {
       title: 'Task Management App',
       description: 'Collaborative task management application with real-time updates and user authentication.',
       technologies: ['React', 'Express', 'MongoDB', 'Socket.io'],
-      image: '/taskapp.jpg',
+      image: '/task.png',
       githubLink: '#',
       liveLink: '#'
     },
