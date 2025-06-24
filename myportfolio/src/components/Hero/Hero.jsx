@@ -2,7 +2,10 @@ import Button from '../common/Button';
 
 const Hero = () => {
   return (
-    <section className="hero py-5 bg-primary text-white">
+    <section className="hero py-5 text-white" style={{
+        backgroundColor: '#000',
+        height: '100%'
+    }}>
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 mb-4 mb-lg-0">

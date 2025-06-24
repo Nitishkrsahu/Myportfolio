@@ -3,7 +3,10 @@ import SectionTitle from '../common/SectionTitle';
 
 const About = () => {
   return (
-    <section id="about" className="py-5">
+    <section className="py-5" style={{
+        backgroundColor: '#000',
+        color: '#fff'
+    }}>
       <div className="container">
         <SectionTitle title="About Me" subtitle="Get to know me" />
         
@@ -14,7 +17,7 @@ const About = () => {
                 src="/profile.jpg" 
                 alt="Profile" 
                 className="img-fluid rounded shadow-lg" 
-                style={{ maxWidth: '300px' }}
+                style={{ maxWidth: '310px' }}
               />
             </div>
           </div>

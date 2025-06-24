@@ -21,14 +21,17 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-5 bg-light">
+    <section className="py-5" style={{
+        backgroundColor: '#000',
+        color: '#fff'
+    }}>
       <div className="container">
         <SectionTitle title="Contact" subtitle="Get in touch" />
         
         <div className="row">
           <div className="col-lg-5 mb-4 mb-lg-0">
-            <h3 className="mb-4">Let's talk about your project</h3>
-            <p className="mb-4">
+            <h3 className="mb-3">Let's talk about your project</h3>
+            <p className="mb-3">
               Feel free to reach out for collaboration or just a friendly hello
             </p>
             <div className="contact-details">
@@ -48,13 +51,17 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-7">
-            <form onSubmit={handleSubmit} className="bg-white p-4 rounded shadow-sm">
+          <div className="col-lg-7" >
+            <form onSubmit={handleSubmit} className="bg-dark p-4 rounded shadow-sm">
               <div className="mb-3">
                 <label htmlFor="name" className="form-label">Your Name</label>
                 <input
                   type="text"
                   className="form-control"
+                  style={{
+                    backgroundColor: '#000',
+                    color: '#fff'
+                }}
                   id="name"
                   name="name"
                   value={formData.name}
@@ -67,6 +74,10 @@ const Contact = () => {
                 <input
                   type="email"
                   className="form-control"
+                  style={{
+                    backgroundColor: '#000',
+                    color: '#fff'
+                }}
                   id="email"
                   name="email"
                   value={formData.email}
@@ -78,6 +89,10 @@ const Contact = () => {
                 <label htmlFor="message" className="form-label">Your Message</label>
                 <textarea
                   className="form-control"
+                  style={{
+                    backgroundColor: '#000',
+                    color: '#fff'
+                }}
                   id="message"
                   name="message"
                   rows="5"

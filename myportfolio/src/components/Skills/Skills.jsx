@@ -15,7 +15,7 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-5 bg-light">
+    <section className="py-5 bg-light">
       <div className="container">
         <SectionTitle title="My Skills" subtitle="What I know" />
         

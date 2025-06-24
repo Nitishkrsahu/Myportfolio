@@ -26,7 +26,10 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-5">
+    <section className="py-5" style={{
+        backgroundColor: '#000',
+        color: '#fff'
+    }}>
       <div className="container">
         <SectionTitle title="My Projects" subtitle="What I've built" />
         
