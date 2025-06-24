@@ -4,7 +4,6 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import './index.css'
 import App from './App.jsx'
-import { Header } from './component/header/header.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
