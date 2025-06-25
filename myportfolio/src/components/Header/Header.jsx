@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Header() {
-  const [bgColor, setBgColor] = useState("");
+  const [bgColor, setBgColor] = useState("Home");
 
   return (
     <nav className="navbar navbar-expand-lg animate__animated animate__bounce" style={{

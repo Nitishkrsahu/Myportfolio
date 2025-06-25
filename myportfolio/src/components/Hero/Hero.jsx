@@ -2,12 +2,7 @@ import { useState, useEffect,useRef } from 'react';
 import Button from '../common/Button'
 import { motion } from "motion/react"
 const Hero = () => {
-const ball = {
-    width: 100,
-    height: 100,
-    backgroundColor: "#dd00ee",
-    borderRadius: "50%",
-}
+
   const fullText = "Nitish Kumar Sahu";
   const [displayText, setDisplayText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
@@ -88,7 +83,6 @@ const ball = {
               <Button text="Contact Me" link="/contact" variant="btn btn-outline-success" />
             </div>
           </div>
-          
         </div>
       </div>
     </section>
