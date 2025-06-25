@@ -2,9 +2,11 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav className="navbar navbar-expand-lg" style={{
+      backgroundColor: '#000'
+    }}>
       <div className="container">
-        <Link className="navbar-brand" to="/">MyWebsite</Link>
+        <Link className="navbar-brand" to="/"><span className='text-white'>MyWebsite</span></Link>
 
         <button
           className="navbar-toggler"
@@ -21,16 +23,16 @@ export default function Header() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link active" to="/">Home</Link>
+              <Link className="nav-link active" to="/"><button className='btn btn-dark'>Home</button></Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">About</Link>
+              <Link className="nav-link" to="/about"><button className='btn btn-dark'>About</button></Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/services">Services</Link>
+              <Link className="nav-link" to="/services"><button className='btn btn-dark'>Services</button></Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">Contact</Link>
+              <Link className="nav-link" to="/contact"><button className='btn btn-dark'>Contact</button></Link>
             </li>
           </ul>
         </div>

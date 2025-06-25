@@ -1,22 +1,12 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from "react-router";
 
-const Button = ({ text, link, variant = 'primary' }) => {
-  const variantClasses = {
-    primary: 'btn-primary',
-    warning: 'btn-warning',
-    'outline-light': 'btn-outline-light',
-    'outline-dark': 'btn-outline-dark'
-  };
-
-  return (
-    <Link 
-      to={link} 
-      className={`btn ${variantClasses[variant] || 'btn-primary'}`}
-    >
-      {text}
+function Button (props){
+  return(
+    <>
+    <Link to={props.link}>
+    <button className={props.variant}>{props.text}</button>
     </Link>
-  );
-};
-
+    </>
+  )
+}
 export default Button;
