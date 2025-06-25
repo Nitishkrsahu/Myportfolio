@@ -9,10 +9,13 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="d-flex flex-column min-vh-100">
+
       <Router>
+        
         <Header />
 
         <main className="flex-fill">
+          
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
