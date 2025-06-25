@@ -4,18 +4,26 @@ import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import { Home } from './pages/home';
+import Footer from './components/Footer/Footer';
+
 function App() {
   return (
-    <Router>
-      <Header />
+    <div className="d-flex flex-column min-vh-100">
+      <Router>
+        <Header />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Projects/>} />
-        <Route path="/contact" element={<Contact/>} />
-      </Routes>
-    </Router>
+        <main className="flex-fill">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+
+        <Footer />
+      </Router>
+    </div>
   );
 }
 
