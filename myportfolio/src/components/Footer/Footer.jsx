@@ -14,7 +14,7 @@ export default function Footer() {
           style={{
             width: '30px', height: '30px'
           }}>
-            <img src="/footer/GitHub.svg" alt="Github-icon" width={20} height={20}/>
+            <img src="/footer/Github.png" alt="Github-icon" width={30} height={30}/>
           </div>
           <div className="btn btn-dark p-2 d-flex justify-content-center align-items-center rounded rounded-1" 
           style={{

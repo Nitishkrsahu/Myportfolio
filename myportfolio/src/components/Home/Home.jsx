@@ -4,7 +4,7 @@ import { Resume } from '../button-component/resume';
 import Skills from '../Skills/Skills';
 import '../../App.css'
 import { motion } from "motion/react"
-const Hero = () => {
+const Home = () => {
 
   const fullText = "Nitish Kumar Sahu";
   const [displayText, setDisplayText] = useState("");
@@ -99,4 +99,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;

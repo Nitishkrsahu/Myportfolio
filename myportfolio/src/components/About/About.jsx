@@ -3,7 +3,7 @@ import SectionTitle from '../common/SectionTitle';
 
 const About = () => {
   return (
-    <section className="py-5" style={{
+    <section className="py-3" style={{
         backgroundColor: '#000',
         color: '#fff'
     }}>
@@ -22,7 +22,7 @@ const About = () => {
             </div>
           </div>
           <div className="col-lg-8">
-            <h3 className="mb-3">Who am I?</h3>
+            <h3 className="mb-3" style={{color: '#FE0087'}}>Who am I?</h3>
             <p className="lead">
               I'm a passionate MERN stack developer with 3+ years of experience 
               building web applications.
@@ -37,21 +37,21 @@ const About = () => {
               <div className="col-md-6">
                 <div className="d-flex mb-3">
                   <span className="fw-bold me-2">Name:</span>
-                  <p>Your Name</p>
+                  <p>Nitish Kumar sahu</p>
                 </div>
                 <div className="d-flex mb-3">
                   <span className="fw-bold me-2">Email:</span>
-                  <p>your.email@example.com</p>
+                  <p>nitishkrsahu123@gmail.com</p>
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="d-flex mb-3">
                   <span className="fw-bold me-2">Experience:</span>
-                  <p>3+ Years</p>
+                  <p>2+ Years</p>
                 </div>
                 <div className="d-flex mb-3">
                   <span className="fw-bold me-2">Location:</span>
-                  <p>Your City, Country</p>
+                  <p>Hydrebad, India</p>
                 </div>
               </div>
             </div>

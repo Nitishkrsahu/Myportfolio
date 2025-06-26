@@ -21,7 +21,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-5" style={{
+    <section className="py-2" style={{
         backgroundColor: '#000',
         color: '#fff'
     }}>
@@ -29,24 +29,24 @@ const Contact = () => {
         <SectionTitle title="Contact" subtitle="Get in touch" />
         
         <div className="row">
-          <div className="col-lg-5 mb-4 mb-lg-0">
+          <div className="col-lg-5 mb-2 mb-lg-0">
             <h3 className="mb-3">Let's talk about your project</h3>
             <p className="mb-3">
               Feel free to reach out for collaboration or just a friendly hello
             </p>
             <div className="contact-details">
               <div className="d-flex mb-3">
-                <i className="bi bi-envelope-fill me-3 text-primary"></i>
+                <i className="bi bi-envelope-fill me-3 text-warning"></i>
                 <div>
                   <h5 className="mb-0">Email</h5>
-                  <p className="mb-0">your.email@example.com</p>
+                  <p className="mb-0">nitishkrsahu123@gmail.com</p>
                 </div>
               </div>
               <div className="d-flex">
-                <i className="bi bi-telephone-fill me-3 text-primary"></i>
+                <i className="bi bi-telephone-fill me-3 text-warning"></i>
                 <div>
                   <h5 className="mb-0">Phone</h5>
-                  <p className="mb-0">+1 234 567 890</p>
+                  <p className="mb-0">+91 8651295487</p>
                 </div>
               </div>
             </div>
@@ -101,7 +101,7 @@ const Contact = () => {
                   required
                 ></textarea>
               </div>
-              <button type="submit" className="btn btn-primary w-100">
+              <button type="submit" className="btn btn-warning w-100">
                 Send Message
               </button>
             </form>
