@@ -1,5 +1,6 @@
 
 import SectionTitle from '../common/SectionTitle';
+import 'animate.css';
 
 const About = () => {
   return (
@@ -16,18 +17,18 @@ const About = () => {
               <img 
                 src="/profile.jpg" 
                 alt="Profile" 
-                className="img-fluid rounded shadow-lg" 
+                className="img-fluid rounded shadow-lg border border-1 animate__animated animate__backInLeft w-100" 
                 style={{ maxWidth: '310px' }}
               />
             </div>
           </div>
-          <div className="col-lg-8">
+          <div className="col-lg-8 animate__animated animate__fadeIn">
             <h3 className="mb-3" style={{color: '#FE0087'}}>Who am I?</h3>
             <p className="lead">
               I'm a passionate MERN stack developer with 3+ years of experience 
               building web applications.
             </p>
-            <p>
+            <p className='text-success'>
               My approach focuses on clean, efficient code and creating intuitive 
               user experiences. I'm constantly learning new technologies and 
               frameworks to stay at the forefront of web development.

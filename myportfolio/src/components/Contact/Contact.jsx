@@ -21,38 +21,52 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-2" style={{
-        backgroundColor: '#000',
-        color: '#fff'
+    <section className="py-1" style={{
+      backgroundColor: '#000',
+      color: '#fff'
     }}>
       <div className="container">
         <SectionTitle title="Contact" subtitle="Get in touch" />
-        
-        <div className="row">
+
+        <div className="row animate__animated animate__fadeIn">
           <div className="col-lg-5 mb-2 mb-lg-0">
-            <h3 className="mb-3">Let's talk about your project</h3>
+            <h3 className="mb-3" style={{
+              color: '#FE0087'
+            }}>Let's talk about your project</h3>
             <p className="mb-3">
               Feel free to reach out for collaboration or just a friendly hello
             </p>
             <div className="contact-details">
-              <div className="d-flex mb-3">
-                <i className="bi bi-envelope-fill me-3 text-warning"></i>
+              <div className="d-flex align-items-center gap-3">
                 <div>
-                  <h5 className="mb-0">Email</h5>
-                  <p className="mb-0">nitishkrsahu123@gmail.com</p>
+                  <img src="/contact/email.svg" alt="whatsapp-icon" width={25} />
+                </div>
+                <div>
+                  <p className="mb-0 btn btn-dark text-info">nitishkrsahu123@gmail.com</p>
                 </div>
               </div>
-              <div className="d-flex">
-                <i className="bi bi-telephone-fill me-3 text-warning"></i>
+              <div className="d-flex align-items-center gap-3 mt-3">
                 <div>
-                  <h5 className="mb-0">Phone</h5>
-                  <p className="mb-0">+91 8651295487</p>
+                  <img src="/contact/telephone.svg" alt="whatsapp-icon" width={25} />
+                </div>
+                <div>
+                  <p className="mb-0 btn btn-dark text-info">+91 8651295487</p>
+                </div>
+              </div>
+              <div className="d-flex align-items-center gap-3 mt-3">
+                <div>
+                  <img src="/contact/whatsapp.svg" alt="whatsapp-icon" width={25} />
+                </div>
+                <div>
+                  <p className="mb-0 btn btn-dark text-info">+91 8651295487</p>
                 </div>
               </div>
             </div>
           </div>
           <div className="col-lg-7" >
-            <form onSubmit={handleSubmit} className="bg-dark p-4 rounded shadow-sm">
+            <form onSubmit={handleSubmit} className="p-4 rounded shadow-sm border border-1" style={{
+              backgroundColor: '#000'
+            }}>
               <div className="mb-3">
                 <label htmlFor="name" className="form-label">Your Name</label>
                 <input
@@ -61,7 +75,7 @@ const Contact = () => {
                   style={{
                     backgroundColor: '#000',
                     color: '#fff'
-                }}
+                  }}
                   id="name"
                   name="name"
                   value={formData.name}
@@ -77,7 +91,7 @@ const Contact = () => {
                   style={{
                     backgroundColor: '#000',
                     color: '#fff'
-                }}
+                  }}
                   id="email"
                   name="email"
                   value={formData.email}
@@ -92,7 +106,7 @@ const Contact = () => {
                   style={{
                     backgroundColor: '#000',
                     color: '#fff'
-                }}
+                  }}
                   id="message"
                   name="message"
                   rows="5"

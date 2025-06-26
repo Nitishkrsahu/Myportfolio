@@ -26,7 +26,7 @@ export default function Header() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto border border-1 rounded rounded-2 text-center border-dark">
             <li className="nav-item">
-              <Link className="nav-link active" to="/">
+              <Link className="nav-link" to="/">
               <span className='btn w-100 btn-dark' 
               style={{
                 backgroundColor: `${bgColor === "Home" ? "#fe0087" : "#0E1616"}`,

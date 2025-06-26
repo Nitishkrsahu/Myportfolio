@@ -16,7 +16,7 @@ const Skills = () => {
 
   return (
     <section className="m-lg-3">
-      <h2 className="text-success py-lg-4">My Skills</h2>
+      <h2 className="text-info py-lg-4">My Skills</h2>
       <div className="skills-slider-box p-2">
         <div className="skills-slider-track">
           {loopSkills.map((item, index) => (

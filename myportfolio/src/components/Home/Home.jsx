@@ -77,7 +77,7 @@ const Home = () => {
               <Resume />
             </div>
           </div>
-          <div className="col-lg-8 mb-4 mb-lg-0">
+          <div className="col-lg-8 mb-4 mb-lg-0 animate__animated animate__fadeIn">
             <h1 className="display-5 fw-bold mb-3 fs-1">
               Hi, I'm <span style={{color: '#2ba84f'}}>{displayText}</span>
             </h1>
