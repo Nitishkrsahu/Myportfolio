@@ -32,7 +32,7 @@ export default function Footer() {
         <div className="text-center col-lg-6">
           <p className="fw-bold p-0 m-0" style={{
             color: '#9C27B0'
-          }}><img src="/footer/copyright.svg" alt="copyright-icon" width={20}/> {new Date().getFullYear()} MyWebsite. All rights reserved.</p>
+          }}><img src="/footer/copyright.svg" alt="copyright-icon" width={20}/> {new Date().getFullYear()} NitishWeb. All rights reserved.</p>
         </div>
       </div>
     </footer>
